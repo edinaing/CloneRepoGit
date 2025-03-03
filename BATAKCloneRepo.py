@@ -11,7 +11,7 @@ def print_banner():
     reset = "\033[0m"
     print("\n")
     banner = pyfiglet.figlet_format("BATAKPRIDE")
-    print(f"{+}{banner}{reset}")
+    print(f"{cyan}{banner}{reset}")
     print("\n")
     print(f"{cyan}  [*] CloneRepoGit\n{reset}")
     print(f"{cyan}  [*] Developer: BATAKPRIDE\n{reset}")
